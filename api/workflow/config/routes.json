@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/fluxes",
-      "handler": "flux.find",
+      "path": "/workflows",
+      "handler": "workflow.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/fluxes/count",
-      "handler": "flux.count",
+      "path": "/workflows/count",
+      "handler": "workflow.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/fluxes/:id",
-      "handler": "flux.findOne",
+      "path": "/workflows/:id",
+      "handler": "workflow.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/fluxes",
-      "handler": "flux.create",
+      "path": "/workflows",
+      "handler": "workflow.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/fluxes/:id",
-      "handler": "flux.update",
+      "path": "/workflows/:id",
+      "handler": "workflow.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/fluxes/:id",
-      "handler": "flux.delete",
+      "path": "/workflows/:id",
+      "handler": "workflow.delete",
       "config": {
         "policies": []
       }

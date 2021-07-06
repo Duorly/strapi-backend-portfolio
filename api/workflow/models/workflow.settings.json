@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "workflows",
   "info": {
-    "name": "Workflows",
-    "description": ""
+    "name": "Workflow"
   },
   "options": {
     "increments": true,
